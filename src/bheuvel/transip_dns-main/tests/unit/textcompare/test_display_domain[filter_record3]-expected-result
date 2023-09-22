@@ -1,0 +1,5 @@
+
+name type  expire content 
+ftp  CNAME 86400  @       
+mail CNAME 86400  @       
+www  CNAME 86400  @       

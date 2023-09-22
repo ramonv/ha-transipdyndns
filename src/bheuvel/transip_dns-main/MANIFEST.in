@@ -1,0 +1,8 @@
+include \
+    *.ini \
+    LICENSE \
+    MANIFEST.in \
+    Makefile \
+    Pipfile \
+    README.rst \
+    setup.*

@@ -1,0 +1,5 @@
+
+type  expire name                 content                
+CNAME 3600   transip-A._domainkey _dkim-A.transip.email. 
+CNAME 3600   transip-B._domainkey _dkim-B.transip.email. 
+CNAME 3600   transip-C._domainkey _dkim-C.transip.email. 

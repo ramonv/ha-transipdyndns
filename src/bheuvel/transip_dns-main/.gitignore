@@ -1,0 +1,17 @@
+dist/
+__pycache__/
+.venv/
+build/
+transip_dns.egg-info/
+.pytest_cache
+.tox
+.coverage*
+cov.xml
+.eggs/
+tests/transip_credentials.py
+tests/__transip_credentials.py
+coverage.xml
+local/*
+# Output from tests
+**/tests/unit/textcompare/*newresult
+.vscode

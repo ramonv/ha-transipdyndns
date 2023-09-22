@@ -1,0 +1,13 @@
+
+type  expire name                 content                
+A     300    @                    37.97.254.27           
+AAAA  300    @                    2a01:7c8:3:1337::27    
+MX    86400  @                    10 @                   
+TXT   300    @                    v=spf1 ~all            
+CNAME 86400  ftp                  @                      
+CNAME 86400  mail                 @                      
+CNAME 3600   transip-A._domainkey _dkim-A.transip.email. 
+CNAME 3600   transip-B._domainkey _dkim-B.transip.email. 
+CNAME 3600   transip-C._domainkey _dkim-C.transip.email. 
+CNAME 86400  www                  @                      
+TXT   86400  _dmarc               v=DMARC1; p=none;      

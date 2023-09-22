@@ -1,0 +1,6 @@
+# Build from "root" directory of this repo (../) to be able to include a file in the dist directory
+# docker build -f docker/Dockerfile -t transip_dns:v$(cat transip_dns/__init__.py | grep version | cut -d '"' -f2)  .
+FROM python:3.6
+COPY dist/transip_dns-*.whl /
+RUN pip install /transip_dns-*.whl
+ENTRYPOINT [ "transip_dns" ]

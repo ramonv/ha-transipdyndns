@@ -1,0 +1,6 @@
+
+name type expire content             
+@    A    300    37.97.254.27        
+@    AAAA 300    2a01:7c8:3:1337::27 
+@    MX   86400  10 @                
+@    TXT  300    v=spf1 ~all         

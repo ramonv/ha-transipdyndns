@@ -1,0 +1,34 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+setuptools = "*"
+twine = "*"
+pytest = "*"
+coverage = "*"
+pytest-cov = "*"
+pytest-mock = "*"
+requests-mock = "*"
+flake8 = "*"
+ # Black has not reached version 0.0.1, therefore not easily found by pipenv
+ # Therefore locked to an arbitrary (latest) version
+black = {version= "==20.8b1"}
+pydocstyle = "*"
+flake8-bugbear = "*"
+flake8-builtins = "*"
+flake8-comprehensions = "*"
+flake8-docstrings = "*"
+flake8-string-format = "*"
+rope = "*"
+rstcheck = "*"
+tox = "*"
+codecov = "*"
+sphinx = "*"
+wheel = "*"
+build = "*"
+
+[packages]
+requests = "*"
+cryptography = "*"

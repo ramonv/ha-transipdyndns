@@ -7,6 +7,6 @@ RUN \
     python3 py3-pip
 RUN pip install transip_dns
 
-COPY run.sh /
+COPY data/run.sh /
 RUN chmod a+x /run.sh
 CMD [ "/run.sh" ]
