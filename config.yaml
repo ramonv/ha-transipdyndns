@@ -1,0 +1,26 @@
+name: "Transip-DynDNS"
+description: "TransIP DynDNS Script"
+version: "0.2"
+slug: "transip_dyndns"
+panel_icon: "mdi:dns"
+panel_title: "TransIP Dynamic DNS Updater Script"
+init: false
+arch:
+  - aarch64
+  - amd64
+  - armhf
+  - armv7
+  - i386
+options:
+  username: null
+  private_key: null
+  domain: null
+  a_record: null
+  record_ttl: 300
+schema:
+  username: str
+  private_key: str
+  domain: str
+  a_record: str
+  record_ttl: int(0,2147483647)
+
