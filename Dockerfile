@@ -8,6 +8,5 @@ RUN \
 RUN pip install transip_dns
 
 COPY run.sh /
-#COPY keyfile.pem /
 RUN chmod a+x /run.sh
 CMD [ "/run.sh" ]
